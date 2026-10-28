@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "lastRunAt": "2026-10-27T09:37:16.705Z",
+  "candidates": {
+    "56:0xd87adb2e47979d6cb323896b1a9320e0dd132213:genesis-poa": {
+      "name": "Ptah Proof of Agent",
+      "chainId": 56,
+      "contract": "0xD87ADb2E47979d6cb323896B1A9320E0dd132213",
+      "round": "genesis-poa",
+      "officialUrl": "https://ptah.trade/poa",
+      "discoverySources": [
+        "https://ptah.trade/poa"
+      ],
+      "verificationSources": [
+        "https://ptah.trade/poa",
+        "https://bsc-dataseed.binance.org/"
+      ],
+      "checkedAt": "2026-10-27T08:46:21.994Z",
+      "blockNumber": 130059479,
+      "status": "open",
+      "eligibility": "eligible",
+      "eligibilityReason": "Public tokenOf=0; mintOpen=true; zero-value mint() read-only simulation succeeds",
+      "mintPriceWei": "0",
+      "gasEstimateWei": "9302250000000",
+      "otherFees": [],
+      "depositAndRefund": null,
+      "endAt": "2026-11-08T04:44:00+00:00",
+      "transferable": false,
+      "marketStatus": "soulbound_not_sellable",
+      "liquidityEvidence": "Official documentation states it cannot be sold or transferred",
+      "riskNotes": [
+        "Read-only simulation is not a security audit; no wallet preview performed"
+      ],
+      "totalMinted": 31204,
+      "latestPublicReadCheck": "2026-10-27T09:37:16.705Z"
+    },
+    "56:0xafe2becdf86826d4b4341de80a0eb2e98eec5b02:genesis": {
+      "name": "Noir Brokers",
+      "chainId": 56,
+      "contract": "0xAfE2Becdf86826d4b4341de80a0eb2E98Eec5B02",
+      "officialUrl": "https://noirbrokers.netlify.app/",
+      "checkedAt": "2026-10-27T08:06:48.055Z",
+      "blockNumber": 130054592,
+      "status": "soldout",
+      "eligibility": "ineligible",
+      "eligibilityReason": "totalSupply=3333 matches official max3333; zero-value simulation reverts",
+      "mintPriceWei": "0",
+      "gasEstimateWei": null,
+      "totalSupply": 3333,
+      "verificationSources": [
+        "https://noirbrokers.netlify.app/",
+        "https://bsc-dataseed.binance.org/"
+      ]
+    },
+    "56:0xe887584746a1375d732854b3b67460a2a73ae0a9:genesis": {
+      "name": "LeadLoop",
+      "chainId": 56,
+      "contract": "0xe887584746A1375d732854b3B67460a2A73ae0a9",
+      "round": "genesis",
+      "officialUrl": "https://leadloop-agency.xyz/agents/",
+      "discoverySources": [
+        "https://leadloop-agency.xyz/agents/"
+      ],
+      "verificationSources": [
+        "https://leadloop-agency.xyz/agents/llms.txt",
+        "https://bsc-dataseed.binance.org/"
+      ],
+      "checkedAt": "2026-10-27T08:46:21.994Z",
+      "blockNumber": 130059479,
+      "status": "open",
+      "eligibility": "eligible",
+      "eligibilityReason": "mintedBy=0, freeUsed=0, quote(wallet,2) all zero; zero-value mint(2) read-only simulation succeeds",
+      "mintPriceWei": "0",
+      "gasEstimateWei": "9726000000000",
+      "otherFees": [],
+      "depositAndRefund": null,
+      "endAt": null,
+      "transferable": true,
+      "marketStatus": "No executable buyer/liquidity verified",
+      "liquidityEvidence": null,
+      "riskNotes": [
+        "Only public read-only simulation; no wallet risk preview or independent source-code audit",
+        "Gas varies; project describes optional reveal transaction if pending draws are not otherwise settled"
+      ],
+      "freeQuantity": 2,
+      "totalMinted": 5328,
+      "latestPublicReadCheck": "2026-10-27T09:37:16.705Z"
+    },
+    "56:0xa78411021f29bfbfe44439824ad6c12e58d2cf67:genesis": {
+      "name": "Blue Sky",
+      "chainId": 56,
+      "contract": "0xA78411021F29BfbfE44439824aD6c12E58D2cF67",
+      "round": "genesis",
+      "officialUrl": "https://hark.site/s/0e72911d-c949-404d-aa68-cf14801ce603",
+      "verificationSources": [
+        "https://sourcify.dev/server/v2/contract/56/0xA78411021F29BfbfE44439824aD6c12E58D2cF67?fields=abi",
+        "https://bsc-dataseed.binance.org/"
+      ],
+      "discoverySources": [
+        "https://agentidhub.eth.limo/project.html?id=blue-sky"
+      ],
+      "checkedAt": "2026-10-27T09:30:01.521Z",
+      "blockNumber": 130061748,
+      "status": "soldout",
+      "eligibility": "ineligible",
+      "eligibilityReason": "totalSupply=MAX_SUPPLY=5000; mintOpen=false",
+      "mintPriceWei": "0",
+      "gasEstimateWei": "6275450000000",
+      "otherFees": null,
+      "depositAndRefund": null,
+      "endAt": "2026-10-29T15:20:52+00:00",
+      "transferable": null,
+      "marketStatus": "No executable sale quote or buyers verified",
+      "liquidityEvidence": null,
+      "riskNotes": [
+        "Verified ABI and public simulation only; full source audit and wallet risk preview not performed",
+        "Additional fee/transfer behavior not fully independently verified"
+      ],
+      "freeQuantity": 1,
+      "totalSupply": 5000,
+      "maxSupply": 5000,
+      "latestPublicReadCheck": "2026-10-27T09:25:14.736Z"
+    },
+    "56:0x70e4f0afb1f0f8e7f99b67f5a25ab56f132f1ed7:genesis": {
+      "name": "Agent Bestiary",
+      "chainId": 56,
+      "contract": "0x70e4F0Afb1F0F8E7F99b67F5A25Ab56f132f1eD7",
+      "round": "genesis",
+      "officialUrl": "https://agentbestiary.github.io/agentbestiary/agents.html",
+      "verificationSources": [
+        "https://agentbestiary.github.io/agentbestiary/llms.txt",
+        "https://bsc-dataseed.binance.org/"
+      ],
+      "checkedAt": "2026-10-27T09:05:48.046Z",
+      "status": "free_quota_exhausted",
+      "eligibility": "ineligible",
+      "eligibilityReason": "freeMinted=1000 equals FREE_QUOTA; personal quote is nonzero",
+      "mintPriceWei": "300000000000000"
+    },
+    "56:0x427aed3f7427b48e45f5e648105aa1b77724cf14:genesis": {
+      "name": "Night Shift Agents",
+      "chainId": 56,
+      "contract": "0x427aed3f7427b48e45f5e648105aa1b77724cf14",
+      "round": "genesis",
+      "officialUrl": null,
+      "contractUrl": "https://bscscan.com/address/0x427aed3f7427b48e45f5e648105aa1b77724cf14",
+      "discoverySources": [
+        "https://boltbook.fun/?lang=zh"
+      ],
+      "verificationSources": [
+        "https://sourcify.dev/server/v2/contract/56/0x427aed3f7427b48e45f5e648105aa1b77724cf14?fields=abi,sources",
+        "https://bsc-dataseed.binance.org/"
+      ],
+      "checkedAt": "2026-10-27T09:10:49.193Z",
+      "blockNumber": 130063088,
+      "status": "open",
+      "eligibility": "eligible",
+      "eligibilityReason": "mintedBy=0, quote(wallet,1)=0, simulation passes; AGENT_ID matches known registry",
+      "mintPriceWei": "0",
+      "gasEstimateWei": "5267700000000",
+      "otherFees": [],
+      "depositAndRefund": null,
+      "endAt": null,
+      "transferable": true,
+      "marketStatus": "No executable buy bids/liquidity verified",
+      "liquidityEvidence": null,
+      "riskNotes": [
+        "Project website/team not independently established; contract source and chain only",
+        "Owner can close mint and withdraw contract revenue",
+        "No wallet security preview performed"
+      ],
+      "freeQuantity": 1,
+      "totalSupply": 1876,
+      "maxSupply": 10000,
+      "latestPublicReadCheck": "2026-10-27T09:37:16.705Z"
+    },
+    "56:0x9ef11394c55ced76acef2029537569f9590de9e3:genesis": {
+      "name": "Inu Punk",
+      "chainId": 56,
+      "contract": "0x9Ef11394c55ceD76acEf2029537569F9590dE9e3",
+      "round": "genesis",
+      "officialUrl": "https://inupunk.lovable.app/",
+      "checkedAt": "2026-10-27T09:25:14.736Z",
+      "status": "soldout",
+      "eligibility": "ineligible",
+      "eligibilityReason": "totalSupply=MAX_SUPPLY=2500; mint simulation reverts SoldOut despite zero quote",
+      "verificationSources": [
+        "https://inupunk.lovable.app/",
+        "https://sourcify.dev/server/v2/contract/56/0x9Ef11394c55ceD76acEf2029537569F9590dE9e3?fields=abi",
+        "https://bsc-dataseed.binance.org/"
+      ]
+    }
+  },
+  "notified": {
+    "56:0xd87adb2e47979d6cb323896b1a9320e0dd132213:genesis-poa": {
+      "lastNotifiedAt": "2026-10-27T07:49:12.321Z",
+      "reason": "initial_verified_candidate",
+      "status": "open",
+      "eligibility": "eligible",
+      "round": "genesis-poa",
+      "mintPriceWei": "0",
+      "endAt": "2026-11-08T04:44:00+00:00",
+      "transferable": false,
+      "deadlineReminderSent": false
+    },
+    "56:0xe887584746a1375d732854b3b67460a2a73ae0a9:genesis": {
+      "lastNotifiedAt": "2026-10-27T08:24:38.736Z",
+      "reason": "new_verified_candidate",
+      "status": "open",
+      "eligibility": "eligible",
+      "round": "genesis",
+      "mintPriceWei": "0",
+      "endAt": null,
+      "transferable": true,
+      "deadlineReminderSent": false
+    },
+    "56:0xa78411021f29bfbfe44439824ad6c12e58d2cf67:genesis": {
+      "lastNotifiedAt": "2026-10-27T09:30:01.521Z",
+      "reason": "soldout_removed",
+      "status": "soldout",
+      "eligibility": "ineligible",
+      "round": "genesis",
+      "mintPriceWei": "0",
+      "endAt": "2026-10-29T15:20:52+00:00",
+      "deadlineReminderSent": false
+    },
+    "56:0x427aed3f7427b48e45f5e648105aa1b77724cf14:genesis": {
+      "lastNotifiedAt": "2026-10-27T09:10:49.193Z",
+      "reason": "new_contract_verified_candidate",
+      "status": "open",
+      "eligibility": "eligible",
+      "mintPriceWei": "0",
+      "round": "genesis",
+      "endAt": null,
+      "deadlineReminderSent": false
+    }
+  },
+  "sourceFailures": {
+    "web-search": {
+      "consecutiveFailures": 1,
+      "lastFailureAt": "2026-10-27T09:37:16.705Z",
+      "reason": "Search tool connection failed; direct Catalyst official fetch also failed; public RPC verification succeeded"
+    }
+  },
+  "walletSessionNoticeSent": false,
+  "discoveryQueue": [
+    {
+      "url": "https://agentpad.surge.sh/pass",
+      "status": "unverified",
+      "reason": "Official URL returned404; no validated free mint recommendation"
+    },
+    {
+      "url": "https://nonceprotocol.xyz/",
+      "status": "unverified",
+      "reason": "Official deployment docs confirm NFT0x053259A3D30E63d9447E3d90813C6a494bcB398a and mint0x7538ba8C1A82E9706dB6d2463C15f69ADc01a17e; requires MCP challenge. Current admission and personal eligibility not verified; not recommended yet.",
+      "verificationSources": [
+        "https://nonceprotocol.xyz/docs/deployment"
+      ],
+      "checkedAt": "2026-10-27T08:27:13.206Z"
+    },
+    {
+      "url": "https://agentidhub.eth.limo/index.html",
+      "status": "discovery_source",
+      "reason": "Directory candidates require official/current chain verification"
+    },
+    {
+      "url": "https://nftcalendar.io/search/free",
+      "status": "discovery_source",
+      "checkedAt": "2026-10-27T08:27:13.206Z",
+      "reason": "New calendar results require official contract and current availability checks"
+    },
+    {
+      "name": "Signal Ghosts (BSC)",
+      "status": "excluded",
+      "discoverySources": [
+        "https://agentidhub.eth.limo/index.html",
+        "https://nftcalendar.io/search/free"
+      ],
+      "reason": "Catalog contract 0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b current totalSupply3333 matches stated cap3333; no free availability",
+      "checkedAt": "2026-10-27T08:46:21.994Z",
+      "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b"
+    },
+    {
+      "name": "AIVY Robot",
+      "status": "unverified",
+      "discoverySources": [
+        "https://agentidhub.eth.limo/index.html",
+        "https://nftcalendar.io/search/free"
+      ],
+      "reason": "Directory points to aivy.me; current totalSupply() reverts; keep unverified, not a confirmed opportunity",
+      "checkedAt": "2026-10-27T08:46:21.994Z",
+      "contract": "0x77cCE940d1Fe4808aB6cf8484d45d8B51139E7D6"
+    },
+    {
+      "url": "https://galaxy-coin-nft.netlify.app/",
+      "status": "unverified",
+      "checkedAt": "2026-10-27T08:50:18.259Z",
+      "reason": "Public discovery URL returned404; current official deployment unavailable, not recommended"
+    },
+    {
+      "name": "CatalystLabsX",
+      "url": "https://catalystlabsx.space/",
+      "status": "unverified",
+      "reason": "Social lead, official fetch failed; current contract/eligibility not verified",
+      "checkedAt": "2026-10-27T09:30:01.521Z"
+    }
+  ],
+  "lastNotificationAt": "2026-10-27T09:30:01.521Z",
+  "lastDiscoveryCheck": {
+    "checkedAt": "2026-10-27T09:20:11.567Z",
+    "result": "New public searches and Inu Punk page script inspection did not establish an additional verified free candidate."
+  }
+}

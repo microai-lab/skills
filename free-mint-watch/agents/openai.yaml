@@ -1,0 +1,4 @@
+interface:
+  display_name: "免费铸造监测"
+  short_description: "发现并核实免费铸造项目，只查公开数据并去重推送，用户同意后才接入钱包铸造"
+  default_prompt: "使用 $free-mint-watch 检查免费铸造，核实个人资格、全部费用和截止时间；有变化才通知，每次推送分组列出新增项目和仍可参与的已有项目，不自动铸造。"

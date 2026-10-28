@@ -1,0 +1,38 @@
+{
+  "walletAddress": "0xaE8E94a495816B481d37Eb5BE4ECA7989671486F",
+  "preferredChains": [
+    56
+  ],
+  "intervalMinutes": 10,
+  "useAgenticWallet": false,
+  "autoMint": false,
+  "publicRpc": {
+    "56": "https://bsc-dataseed.binance.org/"
+  },
+  "knownMinted": [
+    {
+      "chainId": 56,
+      "contract": "0x70385fa94577cb845983d9b6752f2dde2486c837",
+      "round": "season-01",
+      "tokenId": "5296"
+    },
+    {
+      "chainId": 56,
+      "contract": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
+      "round": "daily-2026-10-24",
+      "tokenId": "988"
+    }
+  ],
+  "ignored": [],
+  "schedule": {
+    "mode": "interval",
+    "intervalMinutes": 10,
+    "times": [],
+    "timezone": "Asia/Shanghai",
+    "activeWindow": null
+  },
+  "notifyOnlyOnChange": true,
+  "askWalletLoginOnNotify": true,
+  "walletForInteractiveMint": true,
+  "monitoringMode": "public-read-only"
+}
